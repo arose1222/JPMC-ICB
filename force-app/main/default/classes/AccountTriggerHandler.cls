@@ -8,7 +8,7 @@ public class AccountTriggerHandler {
         updateReviewDateOnPriorityChange(newAccounts, oldAccountsMap);
     }
     
-    // Set default review date to today for new accounts
+    // Set review date to today for only new accounts
     private static void setDefaultReviewDate(List<Account> accounts) {
         for (Account acc : accounts) {
             if (acc.Last_Review_Date__c == null) {
