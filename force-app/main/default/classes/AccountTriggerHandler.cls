@@ -1,9 +1,3 @@
-/**
- * @description Enhanced trigger handler for Account object with improved error handling,
- *              recursion control, and comprehensive documentation
- * @author Copado AI Assistant
- * @date 2026-03-11
- */
 public class AccountTriggerHandler {
     
     // Recursion control flags
